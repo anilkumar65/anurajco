@@ -1,0 +1,235 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    max-width: 100%;
+    height: 100vh;
+    text-size-adjust: 100%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,Arial, sans-serif;
+    text-rendering: geometricPrecision;
+    /* background-color: beige; */
+}
+header{
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    max-width: 100%;  
+    background-color:rgba(85, 71, 193, 0.4);
+    color: #1f0303;
+    position: sticky;
+    top: 0;
+    border-bottom:1px solid  rgba(222, 210, 221, 0.95);
+    z-index: 1;
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  .company_name{
+    width: 100%;
+    height: auto;
+    
+    display:flex;
+    position: relative;
+    justify-content: space-evenly;
+  }
+
+.company_name h1{
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px;
+    font-weight:800;
+    font-size: 2em;
+    font-family: "Fascinate Inline", cursive;
+    
+}
+
+    
+
+.logo-imgContainer .logo_img{
+    
+    /* padding: 30px;
+    width: 100%;
+    mix-blend-mode: color-burn; */
+    max-width: 120px;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 60%;
+    backface-visibility: hidden;
+    vertical-align: top;
+    mix-blend-mode: color-burn;
+    
+   
+    
+    
+  
+}
+ 
+nav {
+    display: flex;
+    justify-content: end;
+    max-width: 100%;
+    margin: 10px;
+    height: 100%;
+    
+   
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+
+}
+nav ul li{
+    display: flex;
+    font-size: 18px;
+    text-align:center;
+    margin-inline: 5px;
+    padding: 15px 20px;
+    max-width: 100%;
+    height: 100%;
+   
+}
+ nav ul li a {
+   
+    color:#333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 100%;
+    height: 100%;
+    
+}
+.active, nav ul li:hover{
+    color: #1d65e1e8;
+    font-weight: 900;
+    
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    display: none;
+
+}
+.menu-icon i{
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: #2e2e2e;
+}
+.footer-container{
+    padding: 20px 40px;
+    background-color:rgb(22 17 157 / 6%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-content{
+    display: flex;
+    flex-direction:column;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: px;
+}
+.footer-content h3{
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-content p{
+    padding-bottom: 5px;
+}
+.footer-content  a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: #696b79;
+    font-size: 15px;
+}
+.footer-content li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+.social-media{
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 22px opx 20px ;
+}
+.social-media a{
+    width: 35px;
+  height: 35px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  transition: 0.4s;
+    
+}
+.social-media a i{
+    color: #ddd;
+    font-size: 18px;
+    line-height: 35px;
+    border: 1px solid transparent;
+    transition-delay: 0.4s;
+}
+.social-media a:hover{
+    transform: translate(-5px);
+  background-color: #2e2e2e;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+}
+.social-media a:hover i{
+    color: dodgerblue;
+}
+.bottom-copy{
+    background-color: #1f0303;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+@media (max-width:710px) {
+    nav ul{
+        display: none;
+    }
+    .menu-icon{
+        display: flex;
+        cursor: pointer;
+    }
+    .js-showMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90px;
+        right: 0px;
+        gap: 0px;
+        padding: 70px 0px;
+        background-color: #8ebea3;
+        /* width: 100%; */
+        height: 100%;
+    }
+    .social-media{
+        flex-direction: column;
+        gap: 2px;
+    }
+    
+}
