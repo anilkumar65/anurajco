@@ -252,7 +252,7 @@ nav ul li{
         /* padding: 30px;
         width: 100%;
         mix-blend-mode: color-burn; */
-        max-width: 100%;
+        width: 100%;
         height: auto;
         margin-left: 0px;
         margin-left: 10px;
@@ -261,6 +261,7 @@ nav ul li{
     .company_name h1{
       margin-left: 20px;
       margin-right: 0px;
+      font-weight: 600;
     }
         
 }
