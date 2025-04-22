@@ -1,0 +1,100 @@
+@import url(common.css);
+.about-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 100% ;
+    min-height: 100vh;
+    /* position: relative; */
+    /* background-color: rgb(245, 248, 248); */
+    background-color: #2e2e2e;
+    
+}
+.columnchart_material{
+    display: flex;
+    max-width: 540px;
+    width: 60vw;
+    height: 40vh;
+    /* box-shadow: 0px 15px 30px #f0ecec; */
+    margin-top: 20px;
+   
+}
+rect{
+    display: flex;
+    max-width: 100%;
+    
+}
+ 
+.banner{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.banner h2{
+    color: dodgerblue;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 10px;
+    line-height: 25px;
+}
+.banner  p{
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: rgb(96, 25, 162);
+    margin-top: 20px;
+    color: #ccc;
+}
+.banner .colName{
+    color: #ddd;
+    font-weight: 700;
+}
+.banner span{
+    color: #ddd;
+    font-weight: 700;
+    position: relative;
+}
+.banner span::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: dodgerblue;
+  top: 120%;
+  left: 0;
+}
+.memberName{
+    margin-bottom: 20px;
+}
+.memberName h2{
+    color: blueviolet;   
+}
+.memberName .memTag{
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: 800;
+}
+.memberName p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.memberName hr{
+    background-color: blue;
+    height: 3px;
+    
+}
+@media (max-width:500px) {
+    .columnchart_material{
+        width: 100%;
+        display: inline-block;
+    }
+    rect{
+        display: flex;
+        max-width: 100%;
+}
+}
