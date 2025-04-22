@@ -243,5 +243,6 @@ nav ul li{
         backface-visibility: hidden;
         vertical-align: top;
         mix-blend-mode: color-burn;
+    }
         
 }
