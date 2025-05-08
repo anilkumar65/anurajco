@@ -73,7 +73,7 @@ google.charts.setOnLoadCallback(drawChart);
 
         const options = {
           chart: {
-            title: 'ANURAJ株式会社',
+            title: 'ANORUJ株式会社',
             subtitle: '実績表',
           }
         };
